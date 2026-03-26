@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Loading the trained model
-MODEL_PATH = "D:\\Machine learning\\rainfallmodel.pkl"  
+MODEL_PATH = "rainfallmodel.pkl"  
 with open(MODEL_PATH, "rb") as file:
     model = pickle.load(file)
 
